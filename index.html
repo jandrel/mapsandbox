@@ -25,7 +25,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Mapping the Upper Missouri</div>
+  <div id="map-title">Mapping Upper Missouri</div>
   <div id="map"></div>
 
   <!-- Create the map content with JavaScript (.js) -->
@@ -71,7 +71,7 @@
   .bindPopup("This is pop up text"); // EDIT pop-up text message
     
   L.marker([42.00, -72.00]).addTo(map)
-    
+   .bindPopup("This is pop up text");
   var circle = L.circle([42.508, -73.69], {
     color: 'red',
     fillColor: '#f03',
